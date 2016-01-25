@@ -15,7 +15,6 @@ makeCacheMatrix <- function(x = matrix()) {  ##sets a vector, or a list of funct
 }
 
 
-## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) { ##checks whether an inverted matrix has already been calculated and
   ## stored in cache and returns the inverted matrix or calculates the inverted matrix if
